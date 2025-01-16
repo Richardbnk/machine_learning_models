@@ -72,7 +72,7 @@ import pandas as pd
 
 import scipy.stats as stats
 
-path = r"D:\1. Dados\11. PUC\Machine Learning para Big Data\Aula 4 - ETL e Analise do dados\Resultado_Join_Campo__Menos_70_correlacao.csv"
+path = r".\Resultado_Join_Campo__Menos_70_correlacao.csv"
 df = pd.read_csv(path, sep = ";")
 
 x = df.drop(['target'], axis=1)
